@@ -10,12 +10,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 * Either run
 
 ```
-php composer.phar require "himiklab/yii2-easy-thumbnail-image-helper" "*"
+php composer.phar require "porcelanosa/yii2-easy-thumbnail-image-helper" "*"
 ```
 or add
 
 ```json
-"himiklab/yii2-easy-thumbnail-image-helper" : "*"
+"porcelanosa/yii2-easy-thumbnail-image-helper" : "*"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -44,7 +44,7 @@ Usage
 For example:
 
 ```php
-use himiklab\thumbnail\EasyThumbnailImage;
+use porcelanosa\thumbnail\EasyThumbnailImage;
 
 echo EasyThumbnailImage::thumbnailImg(
     $model->pictureFile,
@@ -60,12 +60,12 @@ For other functions please see the source code.
 If you want to handle errors that appear while converting to thumbnail by yourself, please make your own class and inherit it from EasyThumbnailImage. In your class replace only protected method errorHandler. For example
 
 ```php
-class ThumbHelper extends \himiklab\thumbnail\EasyThumbnailImage
+class ThumbHelper extends \porcelanosa\thumbnail\EasyThumbnailImage
 {
 
     protected static function errorHandler($error, $filename)
     {
-        if ($error instanceof \himiklab\thumbnail\FileNotFoundException) {
+        if ($error instanceof \porcelanosa\thumbnail\FileNotFoundException) {
             return \yii\helpers\Html::img('@web/images/notfound.png');
         } else {
             $filename = basename($filename);
