@@ -5,12 +5,16 @@
   "type": "yii2-extension",
   "license": "MIT",
   "support": {
-    "source": "https://github.com/porcelanosa/yii2-easy-thumbnail-image-helper",
+    "source": "https://github.com/porcelanosa/yii2-easy-thumbnail-image-helper"
   },
   "authors": [
     {
-	  "name": "HimikLab",
-      "homepage": "https://github.com/himiklab/"
+	"name": "HimikLab",
+      	"homepage": "https://github.com/himiklab/"
+    },
+    {
+	"name": "Porcelanosa",
+      	"homepage": "https://github.com/porcelanosa/"
     }
   ],
   "require": {
