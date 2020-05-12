@@ -1,14 +1,14 @@
 <?php
 /**
- * @link https://github.com/himiklab/yii2-easy-thumbnail-image-helper
+ * @link https://github.com/porcelanosa/yii2-easy-thumbnail-image-helper
  * @copyright Copyright (c) 2014 HimikLab
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace himiklab\thumbnail;
+namespace porcelanosa\thumbnail;
 
 use Yii;
-use yii\helpers\Html;
+use yii\bootstrap4\Html;
 use yii\helpers\FileHelper;
 use yii\imagine\Image;
 use Imagine\Image\Box;
@@ -17,7 +17,7 @@ use Imagine\Image\ManipulatorInterface;
 /**
  * Yii2 helper for creating and caching thumbnails on real time
  * @author HimikLab
- * @package himiklab\thumbnail
+ * @package porcelanosa\thumbnail
  */
 class EasyThumbnailImage
 {
