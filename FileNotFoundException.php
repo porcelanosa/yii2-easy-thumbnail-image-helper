@@ -5,11 +5,11 @@
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace himiklab\thumbnail;
+namespace porcelanosa\thumbnail;
 
 /**
  * @author HimikLab
- * @package himiklab\thumbnail
+ * @package porcelanosa\thumbnail
  */
 class FileNotFoundException extends \Exception
 {
