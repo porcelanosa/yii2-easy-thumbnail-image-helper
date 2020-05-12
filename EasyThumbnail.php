@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace himiklab\thumbnail;
+namespace porcelanosa\thumbnail;
 
 use yii\base\Object;
 
